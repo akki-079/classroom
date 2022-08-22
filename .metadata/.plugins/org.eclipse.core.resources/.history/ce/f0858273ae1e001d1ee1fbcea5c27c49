@@ -1,0 +1,10 @@
+package com.demo.interfaces.ex1;
+
+public class DBMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

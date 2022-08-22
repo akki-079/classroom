@@ -1,0 +1,19 @@
+package com.demo.inheritance.ex1;
+
+public class Student extends Person {
+	private String standard;
+	private String subject;
+	
+	
+	public Student(String standard, String subject) {
+		super(0,"ABC","XYZ");
+		this.standard = standard;
+		this.subject = subject;
+		System.out.println(getDetails());
+	}
+	
+	public String getDetails() {
+		return standard+" "+subject;
+	}
+	
+}

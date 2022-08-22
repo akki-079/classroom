@@ -1,0 +1,11 @@
+package com.demo.calc;
+
+public class NumberGenerator {
+	public double getFirstNumber() {
+		return Math.random()*10;
+	}
+	
+	public double getSecondNumber() {
+		return Math.random()*20;
+	}
+}

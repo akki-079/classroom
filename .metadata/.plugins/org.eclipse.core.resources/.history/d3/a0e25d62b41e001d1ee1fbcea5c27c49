@@ -1,0 +1,20 @@
+package com.demo.interfaces.ex2;
+
+public class PanasonicTv implements UniversalRemote {
+
+	@Override
+	public void switchOn() {
+		System.out.println("switch on PanasonicTv..");
+	}
+
+	@Override
+	public void switchOff() {
+		System.out.println("switch off PanasonicTv..");		
+	}
+
+	@Override
+	public void setChannel() {
+		System.out.println("set channel to Zee Cinema on PanasonicTv..");		
+	}
+
+}

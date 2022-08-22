@@ -1,0 +1,11 @@
+package com.demo.assess;
+
+public class StringTest {
+
+	public static void main(String[] args) {
+		String input = "jk;lIHkoO, o";
+		input = input.replaceAll(" ","");
+		System.out.println(input);
+	}
+
+}

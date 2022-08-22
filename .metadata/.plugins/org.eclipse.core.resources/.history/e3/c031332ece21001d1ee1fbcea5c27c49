@@ -1,0 +1,5 @@
+package com.demo.calc;
+
+public class NumberGenerator {
+
+}

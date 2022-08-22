@@ -1,0 +1,20 @@
+package com.demo.interfaces.ex2;
+
+public class BPLTv implements UniversalRemote {
+
+	@Override
+	public void switchOn() {
+		System.out.println("switch on SonyTv..");
+	}
+
+	@Override
+	public void switchOff() {
+		System.out.println("switch off SonyTv..");		
+	}
+
+	@Override
+	public void setChannel() {
+		System.out.println("set channel to Zee Cinema on SonyTv..");		
+	}
+
+}

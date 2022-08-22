@@ -1,0 +1,13 @@
+package com.demo.inheritance.ex1;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+		Person peter = new Person(2,"Peter","Almora");
+		Student s1 = new Student(1,"Johnny","New Delhi","12th","Science");
+		System.out.println(peter.getDetails());
+
+		System.out.println(s1.getDetails());
+	}
+
+}

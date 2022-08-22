@@ -1,0 +1,12 @@
+package com.demo.calc;
+
+public class Calculator {
+
+	public static void main(String[] args) {
+		NumberGenerator ng = new NumberGenerator();
+		int a = (int)ng.getFirstNumber();
+		int b = (int)ng.getSecondNumber();
+		System.out.println("sum of two random numbers "+a+" and "+b+" is "+(a+b) );
+	}
+
+}

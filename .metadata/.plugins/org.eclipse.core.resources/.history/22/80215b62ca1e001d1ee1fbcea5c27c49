@@ -1,0 +1,19 @@
+package com.demo.util;
+
+public class StringSearchLetter {
+
+	public static void main(String[] args) {
+		String input = "aTgutyVGbduQh";
+		char l = 't';
+		
+		char[] chars = input.toLowerCase().trim().toCharArray();
+		int count = 0;
+		for(int i=0;i<input.length();i++) {
+			if(chars[i]==l) {
+				count++;
+			}
+		}
+		System.out.println(count);
+	}
+
+}

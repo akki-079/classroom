@@ -1,0 +1,21 @@
+package com.demo.assess;
+
+public class StringTest {
+
+	public static void main(String[] args) {
+		int count = 0;
+		String input = "jk;lIHkoO, O";
+		input = input.replaceAll(" ","");
+		String[] i = input.split(",");
+		System.out.println(i[0]+" "+i[1]);
+		char l = i[1].toLowerCase().toCharArray()[0];
+		char[] u = i[0].toLowerCase().toCharArray();
+		for(int j= 0;j<u.length;j++) {
+			if(u[j] == l) {
+				count++;
+			}
+		}
+		System.out.println(count);
+	}
+
+}

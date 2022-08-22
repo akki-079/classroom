@@ -1,0 +1,20 @@
+package com.demo.util;
+
+public class StringDemo2 {
+
+	public static void main(String[] args) {
+		String sample="this is basic Java class as we are advised to learn Java in our class";
+		System.out.println("length of string is : "+sample.length());
+		System.out.println("Java in string is at  : "+sample.indexOf("Java"));
+		System.out.println("string in lowercase : "+sample.toLowerCase());
+		char[] chars = sample.toCharArray();
+		 
+        
+        for (char ch: chars) {
+            System.out.print(ch);
+        }
+		
+		
+	}
+
+}

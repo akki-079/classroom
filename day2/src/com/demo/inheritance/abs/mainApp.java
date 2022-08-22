@@ -1,0 +1,17 @@
+package com.demo.inheritance.abs;
+
+public class mainApp {
+
+	public static void main(String[] args) {
+		Triangle t1 = new Triangle(10,6);
+		Rectangle r1 = new Rectangle(6,8);
+		
+		System.out.println(t1.area());
+		System.out.println(r1.area());
+		Figure ref;
+		ref= t1;
+		System.out.println(ref.area());
+		
+	}
+
+}

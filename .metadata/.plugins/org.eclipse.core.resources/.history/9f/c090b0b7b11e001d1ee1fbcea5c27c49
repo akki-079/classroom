@@ -1,0 +1,12 @@
+package com.demo.interfaces.ex2;
+
+public class RemoteMain {
+
+	public static void main(String[] args) {
+		UniversalRemote tvRemote = new PanasonicTv();
+		
+		tvRemote.switchOn();
+		tvRemote.switchOff();
+		tvRemote.setChannel();
+	}
+}

@@ -1,0 +1,7 @@
+package com.demo.calc;
+
+public class NumberGenerator {
+	public double getFirstNumber() {
+		return Math.random()*10;
+	}
+}
