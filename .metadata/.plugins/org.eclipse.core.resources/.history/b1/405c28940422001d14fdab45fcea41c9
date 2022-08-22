@@ -1,0 +1,10 @@
+package com.demo.banking;
+
+import java.util.Scanner;
+
+import javax.print.DocPrintJob;
+
+public class Bank {
+	Account account1 = new Account();
+	Scanner sc = new Scanner(System.in);
+}

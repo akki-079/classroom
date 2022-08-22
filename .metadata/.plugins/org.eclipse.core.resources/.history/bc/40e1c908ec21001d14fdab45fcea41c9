@@ -1,0 +1,27 @@
+package com.demo.exception3;
+
+import java.util.Scanner;
+
+public class Validation {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int age = sc.nextInt();
+		System.out.println(validateaAge(age));
+		
+	}
+	
+	public static String validateaAge(int age) {
+		String response = null;
+		if(age<18) {
+			response = "Children not allowed.";
+		}
+		else if(age>60) {
+			response = "Seniors not allowed";
+		}else if(age>18 && age<60) {
+			response = "Allowed age";
+		}
+		return response;
+	}
+
+}

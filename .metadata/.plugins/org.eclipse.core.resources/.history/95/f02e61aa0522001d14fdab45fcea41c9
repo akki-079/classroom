@@ -1,0 +1,19 @@
+package com.demo.banking;
+
+import java.util.Scanner;
+
+public class BankMain {
+
+	public static void main(String[] args) {
+		Bank bank1 = new Bank();
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Choose the appropriate option.\n 1. Get Balance\n 2. Deposit Money\n 3. Withdraw money");
+		int choice = scanner.nextInt();
+		if(choice == 1) {
+			
+		}
+		
+
+	}
+
+}

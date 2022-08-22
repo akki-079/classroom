@@ -1,0 +1,9 @@
+package com.demo.banking;
+
+public class LowBalanceException extends Exception {
+
+	public LowBalanceException(String string) {
+		throw new RuntimeException(string);
+	}
+
+}

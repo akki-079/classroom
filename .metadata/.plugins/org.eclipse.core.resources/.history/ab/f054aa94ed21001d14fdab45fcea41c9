@@ -1,0 +1,16 @@
+package com.demo.exception3;
+
+public class Validations {
+	public String validateaAge(int age) {
+		String response = null;
+		if(age<18) {
+			response = "Children not allowed.";
+		}
+		else if(age>60) {
+			response = "Seniors not allowed";
+		}else if(age>18 && age<60) {
+			response = "Allowed age";
+		}
+		return response;
+	}
+}

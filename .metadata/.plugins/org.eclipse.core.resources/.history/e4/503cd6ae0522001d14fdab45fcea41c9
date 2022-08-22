@@ -1,0 +1,21 @@
+package com.demo.banking;
+
+import java.util.Scanner;
+
+
+public class Bank {
+	Account account1 = new Account();
+	
+	public double getAccountBalance() {
+		return account1.getBalance();
+	}
+	
+	public void accountDeposit(double amount) {
+		account1.deposit(amount);
+	}
+	
+	public void accountWithdrawal(double amount) {
+		account1.deposit(amount);
+	}
+	
+}
