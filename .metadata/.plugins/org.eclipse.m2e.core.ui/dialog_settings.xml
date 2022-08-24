@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\training\Java_Training\day-4-hands-on"/>
 			<item value="C:\training\Java_Training\day3-hands-on"/>
 			<item value="C:\training\Java_Training\day3-hands-on\pom.xml"/>
 			<item value="C:\training\Java_Training\day3-hands-on\src\main\java\com\demo\application\Employee.java"/>
@@ -46,17 +47,20 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.demo.day5"/>
 			<item value="com.demo.day4"/>
 			<item value="com.demo.assessment"/>
 			<item value="com.demo"/>
 		</list>
 		<list key="name">
+			<item value="day5-hands-on"/>
 			<item value="day-4-hands-on"/>
 			<item value="nameConcatenation"/>
 			<item value="concatenateName"/>
 			<item value="day3-hands-on"/>
 		</list>
 		<list key="artifactId">
+			<item value="day5-hands-on"/>
 			<item value="day-4-hands-on"/>
 			<item value="nameConcatenation"/>
 			<item value="concatenateName"/>
