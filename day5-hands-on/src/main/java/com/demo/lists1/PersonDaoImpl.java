@@ -21,19 +21,20 @@ public class PersonDaoImpl implements PersonDao{
 
 
 	@Override
-	public String findBy(int id) {
+	public Person findBy(int id) {
 		int check = 0;
 		for(Person person:personList) {
 			if(person.getId() == id) {
 				check = 1;
-				return person.getDetails();
+				return (Person) person;
 				
 			}
 		}
 		if(check ==0) {
-			return "Entry not found";
+			return null;
+		}else {
+			return null;
 		}
-		return null;
 	}
 
 }

@@ -2,8 +2,8 @@ package com.demo.lists;
 
 import java.util.Objects;
 
-public class Person {
-	private int id;
+public class Person implements Comparable<Person>{
+	private Integer id;
 	private String name;
 	private String location;
 	
@@ -17,7 +17,7 @@ public class Person {
 		return id+" "+name+" "+location;
 	}
 	
-	public int getId() {
+	public Integer getId() {
 		return this.id;
 	}
 
@@ -41,5 +41,31 @@ public class Person {
 			return false;
 		Person other = (Person) obj;
 		return id == other.id;
+	}
+
+	@Override
+	public int compareTo(Person o) {
+		// TODO Auto-generated method stub
+		return this.id.compareTo(o.getId());
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getLocation() {
+		return location;
+	}
+
+	public void setLocation(String location) {
+		this.location = location;
+	}
+
+	public void setId(int id) {
+		this.id = id;
 	}
 }

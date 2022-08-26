@@ -10,7 +10,16 @@ public class PersonDaoMain {
 		
 		System.out.println(personDao.listAllPersons());
 		
-		System.out.println(personDao.findBy(6));
+		Person myPerson = personDao.findBy(3);
+		System.out.println(myPerson);
+		
+//		if(myPerson == null) {
+//			System.out.println("Entry not found");
+//		}
+//		else {
+//			System.out.println(myPerson.getDetails());
+//		}
+		
 		}
 
 }
